@@ -1,0 +1,47 @@
+# Book Project Configuration
+# The writer, reviewer, and linter agents all read this file.
+
+title: "Azure SQL In Depth"
+author: "Mark Garner"
+
+# Who is this book for?
+audience: >
+  Professional developers and DBAs building production applications on
+  Azure SQL. Assumes comfort with cloud services, relational databases,
+  T-SQL, and at least one application language (C#, Java, Python,
+  JavaScript/TypeScript).
+
+# What makes this book different from just reading the docs?
+angle: >
+  Comprehensive developer's guide organized for learning, not reference.
+  Covers Azure SQL Database, Hyperscale, Managed Instance, and SQL Server
+  on Azure VMs — every major feature, pattern, and operational concern —
+  but teaches them in the order a developer needs them, building
+  understanding progressively.
+
+# How should the prose sound?
+voice: >
+  Conversational, confident, practitioner-to-practitioner. Like a senior
+  engineer explaining the service to a skilled colleague over coffee.
+  Short-spoken, direct, uses contractions. Opinionated where it helps.
+  No hedging, no filler, no marketing.
+
+# Paths (relative to repo root)
+manuscript_dir: manuscript/chapters
+outline: manuscript/outline/outline.md
+docs_mirror: mslearn-docs/content
+mirror_config: mslearn-docs/mirror-config.yaml
+
+# Cover configuration
+cover:
+  title_line1: "Azure SQL"
+  title_line2: ""
+  subtitle: "In Depth"
+  series_name: "In Depth"
+  series_tag: "First Edition"
+  color_scheme: blue
+  feature_tags:
+    - Hyperscale
+    - Managed Instance
+    - High Availability
+    - Migration

@@ -1,0 +1,15 @@
+---
+title: "Azure SQL In Depth"
+author: "Mark Garner"
+lang: en-US
+toc-title: "Table of Contents"
+description: >
+  A comprehensive guide to Azure SQL Database, Hyperscale, Managed Instance,
+  and SQL Server on Azure VMs — organized for progressive learning.
+subject:
+  - Microsoft Azure
+  - SQL Server
+  - Cloud Computing
+  - Database Administration
+rights: "© 2026 Mark Garner. All rights reserved."
+---

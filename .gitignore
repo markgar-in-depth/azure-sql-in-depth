@@ -1,0 +1,17 @@
+# Reference documentation mirror
+mslearn-docs/
+
+# Private agents and skills — symlinked from book-agents repo
+.github/agents
+.github/skills
+setup.sh
+
+# Python virtual environment
+.venv/
+
+# Build output
+build/
+
+# Review artifacts and pipeline state
+manuscript/chapters/reviews/
+manuscript/.pipeline-state.json
